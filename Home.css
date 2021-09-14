@@ -26,12 +26,17 @@
   margin: 39px auto 0;
 }
 
+.u-section-1 .u-icon-1 {
+  color: rgb(255, 255, 255) !important;
+  vertical-align: 3px;
+}
+
 .u-section-1 .u-text-3 {
   width: 746px;
   margin: 30px auto 0;
 }
 
-.u-section-1 .u-icon-1 {
+.u-section-1 .u-icon-2 {
   font-size: 1.6876em;
   vertical-align: -3px;
   width: 27px;
