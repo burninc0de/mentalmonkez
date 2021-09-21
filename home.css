@@ -457,13 +457,13 @@
     margin-right: 0;
   }
 }.u-section-7 .u-sheet-1 {
-  min-height: 1205px;
+  min-height: 2512px;
 }
 
 .u-section-7 .u-list-1 {
   grid-template-rows: auto;
   margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 0;
 }
 
 .u-section-7 .u-repeater-1 {
@@ -1131,16 +1131,20 @@
   font-size: 0.7em;
 }
 
+.u-section-7 .u-btn-21 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 51px auto 58px;
+}
+
+.u-section-7 .u-icon-21 {
+  font-size: 2.25em;
+  vertical-align: -5px;
+}
+
 @media (max-width: 1199px) {
-  .u-section-7 .u-sheet-1 {
-    min-height: 736px;
-  }
-
-  .u-section-7 .u-list-1 {
-    margin-top: 25px;
-    margin-bottom: 42px;
-  }
-
   .u-section-7 .u-repeater-1 {
     grid-template-columns: calc(20% - 8px) calc(20% - 8px) calc(20% - 8px) calc(20% - 8px) calc(20% - 8px);
     min-height: 1845px;
@@ -1448,14 +1452,6 @@
 }
 
 @media (max-width: 991px) {
-  .u-section-7 .u-sheet-1 {
-    min-height: 761px;
-  }
-
-  .u-section-7 .u-list-1 {
-    margin-top: 20px;
-  }
-
   .u-section-7 .u-repeater-1 {
     grid-template-columns: calc(50% - 5px) calc(50% - 5px);
     min-height: 4122px;
@@ -1664,17 +1660,18 @@
 
 @media (max-width: 767px) {
   .u-section-7 .u-sheet-1 {
-    min-height: 2711px;
-  }
-
-  .u-section-7 .u-list-1 {
-    margin-bottom: 40px;
+    min-height: 6712px;
   }
 
   .u-section-7 .u-repeater-1 {
     grid-template-columns: calc(50% - 16px) calc(50% - 16px);
     grid-gap: 32px 32px;
     min-height: 6625px;
+  }
+
+  .u-section-7 .u-btn-21 {
+    margin-top: -90px;
+    margin-bottom: 60px;
   }
 }
 
@@ -1763,19 +1760,24 @@
   .u-section-7 .u-text-39 {
     margin-top: 21px;
   }
+
+  .u-section-7 .u-btn-21 {
+    margin-left: -14px;
+    margin-right: -14px;
+  }
 }.u-section-8 {
   background-image: none;
 }
 
 .u-section-8 .u-sheet-1 {
-  min-height: 395px;
+  min-height: 397px;
 }
 
 .u-section-8 .u-text-1 {
   font-weight: 700;
   background-image: none;
   animation-duration: 1000ms;
-  margin: 58px auto 0;
+  margin: 60px auto 0;
 }
 
 .u-section-8 .u-icon-1 {
